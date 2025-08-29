@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos de Selección y Navegación DOM</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="app-header">
+        <h1>🚀 Explorando el DOM</h1>
+        <p class="subtitle">
+          Aprende los métodos de selección y navegación del DOM de manera
+          interactiva
+        </p>
+      </header>
+
+      <main class="content-area">
+        <section class="methods-section">
+          <h2>📋 Métodos de Selección</h2>
+          <ul class="methods-list">
+            <li>
+              <strong>getElementById:</strong> Selecciona un elemento por su ID
+            </li>
+            <li>
+              <strong>getElementsByClassName:</strong> Selecciona elementos por
+              su clase
+            </li>
+            <li>
+              <strong>querySelector:</strong> Selecciona el primer elemento que
+              coincida con el selector
+            </li>
+            <li>
+              <strong>querySelectorAll:</strong> Selecciona todos los elementos
+              que coincidan con el selector
+            </li>
+          </ul>
+        </section>
+
+        <section class="navigation control-panel">
+          <h3>🎨 Cambiar Tema</h3>
+          <div class="theme-buttons">
+            <button id="btn-theme-light" class="btn-theme btn-theme-light">
+              <span class="btn-icon">☀️</span>
+              Tema Claro
+            </button>
+            <button id="btn-theme-dark" class="btn-theme btn-theme-dark">
+              <span class="btn-icon">🌙</span>
+              Tema Oscuro
+            </button>
+            <button
+              id="btn-theme-colorful"
+              class="btn-theme btn-theme-colorful"
+            >
+              <span class="btn-icon">🌈</span>
+              Tema Colorido
+            </button>
+          </div>
+        </section>
+
+        <section id="results" class="navigation results-section">
+          <h3>📊 Resultados:</h3>
+          <div id="output" class="output-area"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
