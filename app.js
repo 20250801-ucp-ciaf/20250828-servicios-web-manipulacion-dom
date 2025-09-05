@@ -1,3 +1,4 @@
+console.log("cambio hecho desde github");
 // Event listeners mejorados
 document.addEventListener("DOMContentLoaded", function () {
   console.log("holiii");
