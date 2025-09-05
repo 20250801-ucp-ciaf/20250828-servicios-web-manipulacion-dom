@@ -1,4 +1,5 @@
 console.log("cambio hecho desde github");
+console.log("cambio hecho desde git local");
 // Event listeners mejorados
 document.addEventListener("DOMContentLoaded", function () {
   console.log("holiii");
